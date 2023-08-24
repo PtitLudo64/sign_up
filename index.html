@@ -12,39 +12,40 @@
         <img id="abstract" src="assets/img/abstract.png" alt="Formes en 3D">
         <div id="greetings">
             <img id="C_logo" src="assets/img/C_logo.svg" alt="C logo">
-            <h1>Find 3D Objects, Mockups and Illustration here.</h1>
+            <h1 id="t1" class="translate">Find 3D Objects, Mockups and Illustration here.</h1>
         </div>
     </div>
     <div id="rightSide">
         <select name="lang" id="lang-select">
-            <option value="english">English (UK)</option>
-            <option value="french">Français (FR)</option>
-            <option value="spanish">Español</option>
-            <option value="german">Deutsch</option>
+            <option value="gb">English (UK)</option>
+            <option value="fr">Français (FR)</option>
+            <option value="sp">Español</option>
+            <option value="de">Deutsch</option>
         </select>
         <form action="">
-            <h2>Create Account</h2>
+            <h2 id="t2" class="translate">Create Account</h2>
             <div id="social">
                 <div id="google">
                     <img src="assets/img/google_icon.svg" alt="Logo Google">
-                    <p>Sign up with Google</p>
+                    <p id="t3" class="translate">Sign up with Google</p>
                 </div>
                 <div id="facebook">
                     <img src="assets/img/facebook_icon.svg" alt="Logo Facebook">
-                    <p>Sign up with Facebook</p>
+                    <p id="t4" class="translate">Sign up with Facebook</p>
                 </div>
             </div>
-            <h3>
+            <h3 id="t5" class="translate">
                 - OR -
             </h3>
             <div id="form">
-                <input type="text" name="name" id="name" placeholder="Full Name">
-                <input type="email" name="mail" id="mail" placeholder="Email Address">
-                <span id="pwdInput"><input type="password" name="pwd" id="pwd" placeholder="Password"></span>
-                <input type="submit" value="Create Account">
+                <input type="text" name="name" id="t6" placeholder="Full Name">
+                <input type="email" name="mail" id="t7" placeholder="Email Address">
+                <span id="pwdInput"><input type="password" name="pwd" id="t8" placeholder="Password"></span>
+                <input type="submit" value="Create Account" id="t9">
             </div>
-            <p id="log_in">Allready have an account? <span>Log in</span></p>
+            <p id="t10" class="translate">Allready have an account? <span>Log in</span></p>
         </form>
     </div>
+    <script src="js/textInject.js"></script>
 </body>
 </html>
